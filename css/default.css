@@ -1,0 +1,364 @@
+/* 
+    Document   : default
+    Created on : 22-lug-2013, 12.01.21
+    Author     : UTENTE
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.clear {
+    clear:both;
+    display:block;
+    overflow:hidden;
+    visibility:hidden;
+    width:0;
+    height:0
+}
+#YM-paginatore-thumb {
+    width:650px;
+    position:relative;
+    left:-12px;
+}
+.wrapper-slider { 
+    width:650px;
+    height:350px;
+    overflow:hidden;
+    /*background:#000;*/
+    position:relative;
+    margin-top:20px;
+}
+.wrapper-slider #prev, .wrapper-slider #next {
+    width:60px;
+    height:60px;
+    display:block;  
+    position:absolute;
+    top:41%;
+    text-indent:-5000px;
+    opacity: 0.65;
+}
+#YM-paginatore-thumb .YM-wrapper-thumb, #YM-riuso-marker .YM-wrapper-thumb {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    float: left;
+    margin-left: 1em;
+    padding:5px;
+    border:1px solid #CCC;
+    border-radius:5px;
+    background:#FFF;
+    margin-bottom:20px;
+}
+#YM-riuso-marker .YM-wrapper-thumb{
+    cursor: pointer;
+}
+#YM-riuso-marker .selected-marker{
+    border: 1px solid green;
+}
+#YM-paginatore-thumb .area-modifica {
+    width: 30px;
+    height: 30px;
+    opacity: 0.85;
+    background:url(../images/modify_img.png) no-repeat center;
+    float: left;
+    position: absolute;
+    left: 5;
+    top:5;
+    cursor: pointer;
+}
+#YM-paginatore-thumb .area-cancellami {
+    width: 30px;
+    background:url(../images/delete_img.png) no-repeat center;
+    opacity: 0.85;
+    height: 30px;
+    position: absolute;
+    left: 35px;
+    top: 5px;
+    cursor: pointer;
+}
+#YM-paginatore-thumb .area-wrap {
+    width: 60px;
+    opacity: 0.85;
+    height: 30px;
+    position: absolute;
+    left:5px;
+    top:35px;
+}
+#informazioniFoto {
+    display:none;
+}
+#attivo, #YM-fx, #YM-opt-paginatore, #YM-opt-responsive-select, #YM-zoom, #YM-same-marker, #YM-tipoMappa {
+    width:202px;
+    height:30px;
+    padding:5px;
+    border-radius:5px;
+    margin-bottom:20px;
+    float:left;
+}
+#TitleFoto, #AltFoto  {
+    width:190px;
+    height:25px;
+    border-radius:5px;
+    line-height:20px!important;
+    border:1px solid #DFDFDF;
+    margin-bottom:20px;
+    background: url(../images/title_input.png) 5px center no-repeat;
+}
+#modal-alt-foto, #modal-title-foto  {
+    width:200px;
+    height:30px;
+    border-radius:5px;
+    line-height:20px!important;
+    border:1px solid #DFDFDF;
+    margin-bottom:20px;
+    padding-left:28px;
+    background: url(../images/title_input.png) 5px center no-repeat;
+}
+.titleFoto, #color-picker, #color-picker-paginatore {
+    width:167px;
+    height:22px;
+    border-radius:5px;
+    line-height:20px!important;
+    border:1px solid #DFDFDF!important;
+    margin-bottom:20px;
+}
+#width, #height , #durata-transizione, #indirizzo, #citta, #nazione, #tooltip, #YM-color-picker {
+    width:202px;
+    height:30px;
+    border-radius:5px;
+    line-height:20px!important;
+    border:1px solid #DFDFDF;
+    margin-bottom:20px;
+    padding-left:28px;
+    float:left;
+    background: #fff url(../images/bg_time_input.png) 5px center no-repeat;
+}
+#tooltip {
+    height:150px;
+    background: #fff url(../images/title_input.png) 5px 5px no-repeat;
+    resize:none;
+}
+#indirizzo, #citta, #nazione {
+    background: #fff url(../images/location_input.png) 5px center no-repeat;
+}
+.help-button {
+    width:25px;
+    height:25px;
+    float:left;
+    position:relative;
+    top:3px;
+    margin-left:10px;
+    cursor:help;
+    background:url(../images/help_button.png) center no-repeat;
+    display: block;
+}
+#width {
+    background: #fff url(../images/width_input.png) 5px center no-repeat;
+}
+#color-picker, #color-picker-paginatore {
+    padding-left:28px;
+    float:left;
+    clear:left;
+    background: #fff url(../images/color_input.png) 5px center no-repeat;	
+}
+.iris-picker, .iris-mozilla, .iris-border { 
+    margin-bottom:20px;
+    border: solid 1px #DFDFDF !important;
+    float:left;
+    clear:both;
+} 
+#height {
+    background: #fff url(../images/height_input.png) 5px center no-repeat;
+}
+.YM-wrapper-thumb	{
+    background:#666;
+    display:block;
+    width:60px;
+    height:60px;
+    border:dotted 1px #999999;
+}
+.ui-sortable-placeholder {
+    background:#FAFAFA!important;
+    display:block;
+    width:60px;
+    height:60px;
+    border: dashed 1px #999!important;
+    visibility:visible!important;
+}
+.colore-classe-non-attivo {
+    color:#ae1f37;
+}
+.colore-classe-attivo {
+    color:#093;
+}
+.qq-upload-button {
+    width:200px;
+    height:34px;
+    color:#FFF;
+    border-radius:5px;
+    background:#ae1f37 url(../images/file_btn.png) center no-repeat;
+}
+.qq-upload-button-disabled {
+    width:200px;
+    height:34px;
+    color:#FFF;
+    cursor:none!important;
+    border-radius:5px;
+    background:#CCC url(../images/file_btn.png) center no-repeat;
+}
+.YM-button, #AggiornaModifiche {
+    width:202px;
+    height:34px;
+    color:#FFF;
+    border-radius:5px;
+    border:none;
+    background:#ae1f37;
+    font-weight:bold;
+    cursor:pointer;
+    margin-bottom:20px;
+}
+.YM-button-disabled {
+    width:200px;
+    height:34px;
+    color:#FFF;
+    border-radius:5px;
+    border:none;
+    background:#CCC;
+    font-weight:bold;
+    cursor:pointer;
+}
+.YM-button:hover {
+    background:#CCC;
+}
+.qq-upload-button:hover {
+    background:#CCC url(../images/file_btn.png) center no-repeat;
+}
+#file-upload {
+    background:#F7F7F7!important;
+}
+#result2 img {
+    margin-bottom:20px;
+}
+.durata-transizione {
+    font-size:11px;
+    letter-spacing:-1px;
+}
+.YM-fase-1, .YM-fase-2, .YM-fase-3 {
+    background:#F7F7F7;
+    padding:20px;
+    border-radius: 10px;
+    margin-right:20px;
+    margin-bottom:50px;
+}
+.YM-fase-1 h2, .YM-fase-2 h2, .YM-fase-3 h2 {
+    margin-top:0px!important;
+    display:block;
+    height:30px;
+    position:relative;
+    top:-35px;
+    font-size:12px;
+    background:#F1F1F1;
+    color:#303030;
+    font-weight:800!important;
+    border-radius:10px;
+    padding-left:10px;
+    line-height:30px!important;
+    border:1px solid #CCC;
+    background: -moz-linear-gradient(100% 100% 90deg, #CCC, #F1F1F1);
+}
+.wrapper-contenitore-info {
+    position:relative!important;
+    padding:20px;
+}
+.wrapper-contenitore-info #chiudi-modal {
+    width:25px;
+    height:25px;
+    background:#666;
+    display:block;
+    position:absolute!important;
+    right:0px;
+    top:0px;
+}
+.tooltip { 
+    width:300px;
+    height:40px;
+    background:#CCC;
+    position:relative;
+    border-radius:10px;
+}
+.tooltip .freccia {
+    width:30px;
+    height:30px;
+    background:#F00;
+    top:0px;
+    left:20px;
+    position:absolute;
+    display:block;
+}
+.save-order-ok, .errore-save-order {
+    display:block;
+    padding:10px;
+    border-radius: 10px;
+    background: #9C0;
+    margin-bottom:20px;
+    font-weight:800;
+}
+.errore-save-order {
+    background:#C03;
+    color:#fff;
+}
+#YM-descrizione-plugin {
+    width:80%!important;
+    max-width:60%!important;
+    border:1px solid #CCC!important;
+    padding:2%!important;
+    border-radius:10px!important;
+}
+#YM-descrizione-plugin p {
+    margin-bottom:13px;
+}
+.you-logo {
+    float:right;
+}
+
+/* GIACOMO */
+#YM-color-picker {
+    background: url("../images/color_input.png") no-repeat scroll 5px center #FFFFFF;
+    clear: left;
+    float: left;
+    padding-left: 28px;
+    
+}
+
+#YM-spessore{
+position: relative;  
+width: 215px;
+height: 4px;
+background-color: #DFDFDF;
+}
+
+#YM-spessore-posizione{
+    position: absolute;
+    background: url('../images/arrow_tooltip.png') no-repeat scroll 0 0;
+    width: 15px;
+    height: 15px;
+}
+
+#YM-wrapper-anteprima-spessore{
+    position: relative;
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+}
+
+#YM-anteprima-spessore{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+#YM-pixel-scelto{
+     height: 25px;
+    line-height: 25px;
+    margin: 1em auto 0;
+    width: 25px;
+}

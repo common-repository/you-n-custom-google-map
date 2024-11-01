@@ -1,0 +1,22 @@
+/* 
+    Document   : YM_front_style
+    Created on : 28-ago-2013, 18.11.55
+    Author     : giacomo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#wrapper-YM-responsive{
+    position: relative;
+    padding-bottom: 65.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    width: 99%;
+}
+
+#wrapper-YM-responsive #YM-mappa{
+    position: absolute;
+    top: 0;
+    left: 0;
+}

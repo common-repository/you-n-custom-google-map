@@ -1,0 +1,249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: You Map v0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-22 19:46+0100\n"
+"PO-Revision-Date: 2013-09-06 15:18+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/YMFormConfiguration.php:13
+msgid "<h2>The configuration page is composed by three parts:</h2>"
+msgstr "<h2>La pagina è composta da tre macro blocchi:</h2>"
+
+#: includes/YMFormConfiguration.php:14
+msgid ""
+"<p>The first part is for basic configuration of the map: width, height, zoom "
+"level and the possibility to choose between active or inactive state of the "
+"plugin.</p>"
+msgstr ""
+"<p>Il primo è dedicato alle configurazioni base della mappa: larghezza, "
+"altezza, zoom, scelta tra plugin attivo o non attivo.</p>"
+
+#: includes/YMFormConfiguration.php:15
+msgid ""
+"<p>The second part consists of an upload form of the images which will be "
+"used as markers; you can upload markers one at a time. You can also edit the "
+"position of an existing marker by dragging and dropping it.</p>"
+msgstr ""
+"<p>Il secondo è formato dal modulo di upload dei marker che compongono la "
+"mappa, con possibilità di impostare un tooltip per ogni marker. E' possibile "
+"caricare un solo marker per volta. E' possibile anche modificare la "
+"posizione del marker inserito tramite drag & drop.</p>"
+
+#: includes/YMFormConfiguration.php:16
+msgid ""
+"<p>The third part includes a list of all map markers and allows to change "
+"the tooltips position and text of a selected marker.</p>"
+msgstr ""
+"<p>Il terzo è composto da tutti i marker della mappa ed è stato implementato "
+"per cambiare la posizione o il contenuto della descrizione del marker "
+"selezionato.</p>"
+
+#: includes/YMFormConfiguration.php:19
+msgid "<h2>There are two ways to show a map in a page:</h2>"
+msgstr ""
+"<h2>Per rendere visibile la mappa in una pagina si possono seguire due "
+"strade differenti:</h2>"
+
+#: includes/YMFormConfiguration.php:20
+msgid ""
+"<p>By using the shortcode [YM-map stato=\"on\"] into the Wordpress text "
+"editor</p>"
+msgstr ""
+"<p>Utilizzo dello shortcode: [YM-map stato=\"on\"] direttamente nell'editor "
+"di WordPress.</p>"
+
+#: includes/YMFormConfiguration.php:21
+msgid ""
+"<p>Or, if you are a theme developer, you can include the PHP code: echo "
+"do_shortcode([YM-Map stato=\"on\"]);</p>"
+msgstr ""
+"<p>Oppure, i developer di temi possono includerlo attraverso il PHP con: "
+"echo do_shortcode([YM-Map stato=\"on\"]);</p>"
+
+#: includes/YMFormConfiguration.php:32 includes/YMFormConfiguration.php:46
+msgid "General configuration"
+msgstr "Configurazione generale"
+
+#: includes/YMFormConfiguration.php:33
+msgid "Map configuration"
+msgstr "Configurazione mappa"
+
+#: includes/YMFormConfiguration.php:34
+msgid "Management of marker"
+msgstr "Gestione Marker"
+
+#: includes/YMFormConfiguration.php:39
+msgid "Read the manual"
+msgstr "Leggi il manuale"
+
+#: includes/YMFormConfiguration.php:40
+msgid "Please report all bugs to"
+msgstr "Ti preghiamo di segnalare tutti i bug a"
+
+#: includes/YMFormConfiguration.php:40
+msgid "thanks"
+msgstr "grazie"
+
+#: includes/YMFormConfiguration.php:57
+msgid "Plugin state"
+msgstr "Stato del plugin"
+
+#: includes/YMFormConfiguration.php:60
+msgid "Select"
+msgstr "Seleziona"
+
+#: includes/YMFormConfiguration.php:61
+msgid "Activate"
+msgstr "Attivo"
+
+#: includes/YMFormConfiguration.php:62
+msgid "Deactivate"
+msgstr "Disattivo"
+
+#: includes/YMFormConfiguration.php:64
+msgid ""
+"Here you can choose whether to enable or disable the plugin from ALL pages "
+"in which it was included. <br /> If you want to disable a specific page of "
+"your theme clears the shortcode, passes the parameter \"off\" to the "
+"shortcode or uncheck the options"
+msgstr ""
+"Qui puoi scegliere se abilitare o disabilitare il plugin da tutte le pagine "
+"in cui è stato incluso. <br /> Se si desidera disattivare il plugin in una "
+"pagina specifica del vostro tema cancella lo shortcode, passa il parametro "
+"off allo shortcode o deseleziona le opzioni"
+
+#: includes/YMFormConfiguration.php:66
+msgid "Size of the map"
+msgstr "Dimensioni della mappa"
+
+#: includes/YMFormConfiguration.php:70
+msgid "Custom size"
+msgstr "Grandezza personalizzata"
+
+#: includes/YMFormConfiguration.php:72
+msgid ""
+"Choose the size of your slider: 'Responsive' manipulate the map based on the "
+"size of the window (conigliata choice, especially for viewing on phones and "
+"tablets) <br /> If you set 'Custom Size' you will need to specify the width "
+"and height of the images"
+msgstr ""
+"Scegliere la dimensione della mappa: 'Responsive' manipolare la mappa in "
+"base alle dimensioni della finestra (scelta consigliata, soprattutto per la "
+"visualizzazione su telefoni e tablet) <br /> Se si imposta \"Formato "
+"Personalizzato\" è necessario specificare la larghezza e l'altezza delle "
+"immagini"
+
+#: includes/YMFormConfiguration.php:79
+msgid "Here you can set the width of the map."
+msgstr "Qui puoi impostare la larghezza della mappa."
+
+#: includes/YMFormConfiguration.php:86
+msgid "Here you can set the height of the map."
+msgstr "Qui puoi impostare l'altezza della mappa."
+
+#: includes/YMFormConfiguration.php:116
+msgid "Map types"
+msgstr "Tipologia mappa"
+
+#: includes/YMFormUserConfiguration.php:8
+msgid "Configure the Map"
+msgstr "Configura la mappa"
+
+#: includes/YMFormUserConfiguration.php:8
+msgid "Currently you have entered "
+msgstr "Attualmente hai inserito "
+
+#: includes/YMFormUserConfiguration.php:17
+msgid "Do you want to use the same image?"
+msgstr "Vuoi utilizzare la stessa immagine?"
+
+#: includes/YMFormUserConfiguration.php:20
+msgid "Yes"
+msgstr "Si"
+
+#: includes/YMFormUserConfiguration.php:23
+msgid ""
+"If the upload fails try setting the permissions to 775 to the folder markers "
+"inside the folder of the plugin"
+msgstr ""
+"Se il caricamento dei marker fallisce prova ad impostare i permessi a 775 "
+"alla cartella markers"
+
+#: includes/YMFormUserConfiguration.php:31
+msgid "Upload marker"
+msgstr "Carica marker"
+
+#: includes/YMFormUserConfiguration.php:54
+msgid "Insert here the address"
+msgstr "Inserisci l'indirizzo"
+
+#: includes/YMFormUserConfiguration.php:58
+msgid "Insert the city"
+msgstr "Inserisci la città"
+
+#: includes/YMFormUserConfiguration.php:58
+msgid ""
+"Location not accurate? drag the marker on the Map and save change to set new "
+"position!"
+msgstr ""
+"Posizione non corretta o poco accurata? sposta il marker sulla mappa e salva "
+"le modifiche per aggiornare la posizione!"
+
+#: includes/YMFormUserConfiguration.php:62
+msgid "Insert the nation"
+msgstr "Inserisci la nazione"
+
+#: includes/YMFormUserConfiguration.php:66
+msgid "If you want to add a tooltip enter it below"
+msgstr "Se vuoi inserire un tooltip per il marker inseriscilo qui sotto"
+
+#: includes/YMFormUserConfiguration.php:69
+msgid ""
+"Insert here the text you want displayed when you click on a tooltip. You can "
+"insert HTML tags"
+msgstr ""
+"Inserisci qui il testo che verrà visualizzato al click sul marker. Puoi "
+"inserire anche tag HTML"
+
+#: includes/YMFormUserConfiguration.php:71
+msgid "Map preview"
+msgstr "Anteprima mappa"
+
+#: includes/YMFormUserConfiguration.php:76
+msgid "Save Changes"
+msgstr "Salva"
+
+#: includes/YMFormUserConfiguration.php:86
+msgid "Your Markers"
+msgstr "I tuoi marker"
+
+#: includes/YMFormUserConfiguration.php:99
+#: includes/YMFormUserConfiguration.php:104
+msgid "No Marker found!"
+msgstr "Non sono stati trovati marker"
+
+#: core/YM_admin_side.php:646
+msgid "Operation of cancellation is successful"
+msgstr "Cancellazione avvenuta con successo"
+
+#: core/YM_admin_side.php:530
+msgid "Marker successfully updated!"
+msgstr "Marker aggiornati con successo!"
+
+#: core/YM_admin_side.php:533
+msgid "Error in Marker update, please try again!"
+msgstr "Errore durante l\\'aggiornamento, riprova ancora per favore"
